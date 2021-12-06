@@ -21,7 +21,7 @@ function App() {
       return
     }
     setFollowers(data[page])
-  }, [loading, page])
+  }, [loading, data, page])
 
 
   const prevPage = () => {
